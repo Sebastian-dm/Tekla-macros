@@ -186,8 +186,26 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <!-- Drawing Macros -->
+    <Compile Include="drawing-macros\North Arrow.cs" />
+    <Compile Include="drawing-macros\Regenerate Part Representation.cs" />
+    <Compile Include="drawing-macros\Text Background Transparency.cs" />
+    <Compile Include="drawing-macros\Text Check Size.cs" />
+    <Compile Include="drawing-macros\Text Highlight Wrong Size.cs" />
+    
+    <!-- Model Macros -->
+    <Compile Include="model-macros\Slope measurer.cs" />
+    <Compile Include="model-macros\Examples\Example - 3 point rotation.cs" />
+    <Compile Include="model-macros\Examples\Example - Swap beam handles.cs" />
+  </ItemGroup>
+  <ItemGroup>
     <None Include="app.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <!-- Macro Icons -->
+    <Content Include="drawing-macros\*.bmp" />
+    <Content Include="model-macros\*.bmp" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Resources\element_catalog_cross_section.bmp" />
